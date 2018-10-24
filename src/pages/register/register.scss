@@ -1,24 +1,29 @@
-page-home {
+page-register {
     .bg{
-        background-image: url(../../assets/imgs/login2.jpg);
+        background-image: url(../../assets/imgs/login3.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     img{
-        margin-top: 25%;
+        width: 100px;
+        height: 58px;
     }
 
     .clear{
         background: transparent;
     }
 
-    .login-btn{ 
+    .register-btn{ 
         height: 45px !important;
     }
 
     button{
         font-size: 1.5rem !important;
+    }
+    
+    footer{
+        margin-top: 0px !important;
     }
 
     .item-input-has-focus .label-md[floating], .input-has-focus .label-md[floating]{
@@ -27,5 +32,5 @@ page-home {
     
     .item-input .label-md{
         color: black; //label color
-    }
+    }    
 }

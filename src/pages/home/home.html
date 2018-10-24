@@ -1,14 +1,28 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content padding class="bg">
+
+  <ion-item no-lines text-center>
+      <img  src="../../assets/imgs/logo.png" >
+  </ion-item>
+
+  <ion-item class="clear">
+    <ion-label color="dark" floating>Username</ion-label>
+    <ion-input type="text" value=""></ion-input>
+  </ion-item>
+
+  <ion-item class="clear">
+    <ion-label color="dark" floating>Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+  <ion-item no-lines class="clear">
+    <button  color="material" class="login-btn" ion-button round block>LOGIN</button>
+  </ion-item>
+
+  <ion-item no-lines class="clear signup-btn">
+    <button color="dark" ion-button clear full (click)="redirect()">IF YOU DON'T HAVE AN ACCOUNT, SIGN UP</button>
+  </ion-item>
 </ion-content>
+
